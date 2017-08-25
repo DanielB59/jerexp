@@ -1,0 +1,232 @@
+:root {
+	--pagemaxwidth: 1200px;
+	--pageminwidth: ;
+	
+	--pagemaxheight: ;
+	--pageminheight: ;
+	
+	--maincolor: #023A65;
+	--maincolorgrad: radial-gradient(rgba(0, 104, 183, 0.5), rgba(0, 60, 113, 0.5));
+	--maincolorgradhex: radial-gradient(#0068B7, #003C71); 
+	
+	--gradientcolor1: #B9C6DA;
+	--gradientcolor2: #F1EDFB;
+	
+	--textcolor:white;
+}
+
+* {
+	font-family: Arial;
+	color: var(--textcolor);
+}
+
+#sidebar a {
+	padding: 5px;
+}
+
+h1 {
+	direction: ltr;
+	font-family: Oswald;
+	font-size: 30px;
+	
+	display: inline-block;
+	margin: 10px;
+	color: blue;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+h2 {
+	direction: ltr;
+	font-family: Oswald;
+	font-size: 20px;
+	
+	display: inline-block;
+	margin: 10px;
+	color: orange;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+#h1w2 {
+	font-family:inherit;
+	color:red;
+}
+
+#wrapper * {
+	
+}
+
+div {
+	margin: auto;
+	text-align: center;
+	padding: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	background: url("../visual Storage/Photos/Panorama_Jerusalem.jpeg") no-repeat center fixed;
+	background-size: cover;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	overflow: auto;
+}
+
+iframe {
+	
+}
+
+#header {
+	z-index: 2;
+	background: linear-gradient(to bottom left, var(--gradientcolor1), var(--gradientcolor2));
+	max-width: var(--pagemaxwidth);
+	position: sticky;
+	top: 0px;
+}
+
+#header * {
+	z-index: 2;
+}
+
+#title {
+	text-decoration: none;
+	color: inherit;
+	font-family: Oswald;
+}
+
+#title:hover {
+	color: red;
+}
+
+#page {
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	left: 0px;
+	right: 1.1%;
+	top: 95px;
+	bottom: 0px;
+	
+	overflow-y: scroll;
+}
+
+#footer {
+	z-index: 1;
+	border: 1px solid transparent;
+	background: var(--maincolor);
+	background: var(--maincolorgradhex);
+	
+	margin: auto;
+	max-width: var(--pagemaxwidth);
+	position: sticky;
+	bottom: 0px;
+	
+	direction: ltr;
+}
+
+#footer * {
+	z-index: 1;
+}
+
+#footer p {
+	margin-left: 5px;
+}
+
+#wrapper {
+	z-index: 0;
+	max-width: var(--pagemaxwidth);
+	min-width: var(--pageminwidth);
+	background: rgba(2, 58, 101, 0.6);
+	background: radial-gradient(rgba(0, 104, 183, 0.6), rgba(0, 60, 113, 0.6));;
+	
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+#sidebar {
+	z-index: 0;
+	position: sticky;
+	background: rgba(2, 58, 101, 0.5);
+	background: var(--maincolorgrad);
+	
+	display: inline-block;
+	width: 15%;
+	
+	top: 0px;
+	margin: 0px;
+	vertical-align: top;
+}
+
+#sidebar * {
+	margin: 7px;
+	line-height: 10px;
+}
+
+#content {
+	z-index: 0;
+	background: rgba(2, 58, 101, 0.5);
+	background: var(--maincolorgrad);
+	
+	display: inline-block;
+	width: 85%;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 7px;
+}
+
+#content * {
+	margin: 7px;
+	line-height: 10px;
+}
+
+#content >h1 {
+	text-align: right;
+	display: block;
+	color: orange;
+	margin: 7px;
+}
+
+#content >h2 {
+	text-align: right;
+	display: block;
+	color: orange;
+	margin: 17px;
+}
+
+#content p {
+	text-align: right;
+	line-height: 25px;
+}
+
+#content table {
+	width: 100%;
+	max-width: inherit;
+	table-layout: fixed;
+	margin: 0px;
+}
+
+#content p td {
+	max-width: 33.3%;
+	padding: 0%;
+	word-wrap: break-word;
+}
+
+p img {
+	float: left;
+}
+
+sub {
+	text-align: right;
+	display: block;
+	font-size: x-small;
+	padding-top: 7px;
+}
+
+.break {
+	visibility: hidden;
+}
