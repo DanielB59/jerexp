@@ -1,12 +1,12 @@
 ﻿var submenu0 = ["'./'","Home"];
-var submenu1 = ["'./'","'./Visual Storage/Photos/logo12.png'","./","Under Construction","./","Under Construction","./","Under Construction","./","Under Construction","#","links"];
-var submenu2 = ["'./'","'./Visual Storage/Photos/logo2_text.png'","./","Under Construction","./","Under Construction","./","Under Construction","./","Under Construction","#","links"];
-var submenu3 = ["'./'","'./Visual Storage/Photos/logo3.png'","./","Under Construction","./","Under Construction","./","Under Construction","./","Under Construction","#","links"];
+var submenu1 = ["'./'","'./VisualStorage/Photos/logo1.png'","./","Under Construction","./","Under Construction","./","Under Construction","./","Under Construction","#","links"];
+var submenu2 = ["'./'","'./VisualStorage/Photos/logo2_text.png'","./","Under Construction","./","Under Construction","./","Under Construction","./","Under Construction","#","links"];
+var submenu3 = ["'./'","'./VisualStorage/Photos/logo3.png'","./","Under Construction","./","Under Construction","./","Under Construction","./","Under Construction","#","links"];
 var submenu4 = ["'./'","Under Construction"];
 
 var pageheader = "	<header>"
 +"						<!--<h1><a id=title href='./'>Logo <span id='h1w2'>Here</span></a></h1>-->"
-+"						<a href = './'><img id = 'logo' src = './Visual Storage/Photos/logo_main3.png' style = 'width:60%; height:60%; margin:0px;'></a>"
++"						<a href = './'><img id = 'logo' src = './VisualStorage/Photos/logo_main3.png' style = 'width:60%; height:60%; margin:0px;'></a>"
 +"					</header>"
 +"					<nav>"
 +"						<script>document.write(menu)</script>"
