@@ -1,11 +1,12 @@
 ﻿var submenu0 = ["'./'","Home"];
-var submenu1 = ["'./ferrari.html'","'./Visual Storage/Photos/logo1.png'","./ferrarigall.html","גלריה","./ferrariinov.html","חדשנות","./ferraridesign.html","עיצוב","./ferrarifac.html","מפעלים ועוד","#","קישורים"];
-var submenu2 = ["'./lego.html'","'./Visual Storage/Photos/logo2.png'","./legogall.html","גלריה","./legomake.html","עשייה","./legofacts.html","עובדות","./legofac.html","מפעלים ועוד","#","קישורים"];
-var submenu3 = ["'./intel.html'","'./Visual Storage/Photos/logo3.png'","./intelgall.html","גלריה","./firstproccessor.html","המעבד הראשון","./intelprocess.html","התהליך","./intelfac.html","מפעלים ועוד","#","קישורים"];
-var submenu4 = ["'./about.html'","אודות"];
+var submenu1 = ["'./'","'./Visual Storage/Photos/logo12.png'","./","Under Construction","./","Under Construction","./","Under Construction","./","Under Construction","#","links"];
+var submenu2 = ["'./'","'./Visual Storage/Photos/logo2_text.png'","./","Under Construction","./","Under Construction","./","Under Construction","./","Under Construction","#","links"];
+var submenu3 = ["'./'","'./Visual Storage/Photos/logo3.png'","./","Under Construction","./","Under Construction","./","Under Construction","./","Under Construction","#","links"];
+var submenu4 = ["'./'","Under Construction"];
 
 var pageheader = "	<header>"
-+"						<h1><a id=title href='./'>Logo <span id='h1w2'>Here</span></a></h1>"
++"						<!--<h1><a id=title href='./'>Logo <span id='h1w2'>Here</span></a></h1>-->"
++"						<a href = './'><img id = 'logo' src = './Visual Storage/Photos/logo_main3.png' style = 'width:60%; height:60%; margin:0px;'></a>"
 +"					</header>"
 +"					<nav>"
 +"						<script>document.write(menu)</script>"
@@ -17,7 +18,7 @@ var pagefooter = "	<footer id=footer>"
 
 var menu = "<ul id=menu>"
 +"<!------------------------------------------------------------------------------>"
-+"				<li><a href="+submenu1[0]+"><img src="+submenu1[1]+"></a>"
++"				<li><a href="+submenu1[0]+" id = 'ffs'><img src="+submenu1[1]+"></a>"
 +"					<ul>"
 +"						<li style='display:none'><a href="+submenu1[0]+"><img src="+submenu1[1]+"></a>"
 +"						<li><a href="+submenu1[2]+">"+submenu1[3]+"</a>"

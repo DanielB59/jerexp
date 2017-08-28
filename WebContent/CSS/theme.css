@@ -1,5 +1,5 @@
 :root {
-	--pagemaxwidth: 1200px;
+	--pagemaxwidth: 1400px;
 	--pageminwidth: ;
 	
 	--pagemaxheight: ;
@@ -7,7 +7,7 @@
 	
 	--maincolor: #023A65;
 	--maincolorgrad: radial-gradient(rgba(0, 104, 183, 0.5), rgba(0, 60, 113, 0.5));
-	--maincolorgradhex: radial-gradient(#0068B7, #003C71); 
+	--maincolorgradhex: radial-gradient(#0068B7, #003C71);
 	
 	--gradientcolor1: #B9C6DA;
 	--gradientcolor2: #F1EDFB;
@@ -80,7 +80,8 @@ iframe {
 
 #header {
 	z-index: 2;
-	background: linear-gradient(to bottom left, var(--gradientcolor1), var(--gradientcolor2));
+	margin-top: 10px;
+	/*background: linear-gradient(to bottom left, var(--gradientcolor1), var(--gradientcolor2));*/
 	max-width: var(--pagemaxwidth);
 	position: sticky;
 	top: 0px;
@@ -139,7 +140,7 @@ iframe {
 	max-width: var(--pagemaxwidth);
 	min-width: var(--pageminwidth);
 	background: rgba(2, 58, 101, 0.6);
-	background: radial-gradient(rgba(0, 104, 183, 0.6), rgba(0, 60, 113, 0.6));;
+	background: radial-gradient(rgba(0, 104, 183, 0.6), rgba(0, 60, 113, 0.6));
 	
 	margin: auto;
 	margin-top: 10px;

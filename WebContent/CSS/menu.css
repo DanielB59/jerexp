@@ -5,13 +5,16 @@
 	--msubmenucolor: transparent;
 }
 
+/*#logo						{background-color: rgba(255,255,255,0.5); background: cover;}*/
+/*#ffs						{background: url("./Visual Storage/Photos/logo1.png") cover !important;}*/
+
 #menu img					{width:100%; height:100%;}
 #menu						{width:100%; margin:0px; padding:0px;}
 #menu *						{margin: 0px;}
-#menu a						{display:block; text-decoration:none; color:var(--mtextcolor);}
+#menu a						{display:block; text-decoration:none; color:var(--mtextcolor); font-size: 24px;}
 #menu >li >ul a				{color:transparent; background-color:none;}
-
-#menu >li					{background-color: var(--maincolor); background: var(--maincolorgradhex); position:relative; width:30%; margin:10px; display:inline-block;}
+#menu >li					{/*background-color: var(--maincolor); background: var(--maincolorgradhex);*/ position:relative; width:30%; margin:1.6%; display:inline-block;}
+/* ^ this is the one!*/
 #menu >li ul				{display:hidden; position:absolute; padding:0px; left:0; right:0; top:0;}
 #menu >li ul li				{display:hidden; height:0px; background-color: var(--maincolor); background: var(--maincolorgradhex);}
 
